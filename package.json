@@ -1,0 +1,13 @@
+{
+  "name": "rehbar",
+  "version": "1.0.0",
+  "description": "Rehbar - A guidance app for people",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "npx serve .",
+    "test": "echo \"No tests configured yet\" && exit 0"
+  },
+  "keywords": ["guidance", "help", "resources"],
+  "author": "Shahzeb-Khn",
+  "license": "MIT"
+}

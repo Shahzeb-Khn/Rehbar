@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rehbar - Your Guide</title>
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <h1 class="logo">Rehbar</h1>
+        <p class="tagline">Your guide to the resources you need</p>
+      </div>
+    </header>
+
+    <main class="main container">
+      <section class="search-section">
+        <h2>Find What You Need</h2>
+        <div class="search-bar">
+          <input
+            type="text"
+            id="search-input"
+            placeholder="Search for resources, guides, or topics..."
+            aria-label="Search"
+          />
+          <button id="search-btn" aria-label="Search">Search</button>
+        </div>
+      </section>
+
+      <section class="categories-section">
+        <h2>Categories</h2>
+        <div class="categories" id="categories">
+          <!-- Populated by app.js -->
+        </div>
+      </section>
+
+      <section class="resources-section">
+        <h2>Resources</h2>
+        <div class="resources" id="resources">
+          <!-- Populated by app.js -->
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2026 Rehbar. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="src/app.js"></script>
+  </body>
+</html>
